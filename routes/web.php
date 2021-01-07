@@ -20,3 +20,5 @@
 Route::get('/', 'QuestionController@index')->name('questions');
 Route::get('/question-list', 'QuestionController@questionList')->name('question-list');
 Route::post('/question-store', 'QuestionController@store')->name('question-store');
+
+//ooooooooo
